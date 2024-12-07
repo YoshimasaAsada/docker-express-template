@@ -1,0 +1,14 @@
+{
+  "name": "Node.js Dockerized Development",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/usr/src/app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint", // 必要に応じて追加 (ESLint)
+    "esbenp.prettier-vscode", // 必要に応じて追加 (Prettier)
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}
